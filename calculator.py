@@ -23,12 +23,11 @@ choice = int(input("""1.Add/n
          2.Subtract/n
          3.multiply/n
          4.divide/n
-         5.square of two numbers
+        
          Enter the choice :-"""))
 
 
-def squar(x, y):
-    print("The square is ",x*x,y*y)
+
 
 
 if choice == 1:
