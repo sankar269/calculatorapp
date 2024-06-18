@@ -23,7 +23,13 @@ choice = int(input("""1.Add/n
          2.Subtract/n
          3.multiply/n
          4.divide/n
+         5.square of two numbers
          Enter the choice :-"""))
+
+
+def squar(x, y):
+    print("The square is ",x*x,y*y)
+
 
 if choice == 1:
     print("The addition is",add(x,y))
@@ -33,6 +39,8 @@ elif choice == 3:
     print("The product is :",multiply(x,y))
 elif choice == 4:
     print("The division is:",divide(x,y))
+elif choice == 5:
+    squar(x,y)
 else:
     print("Invalid choice try again")
 
